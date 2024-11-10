@@ -1,0 +1,119 @@
+/* styles/custom.css */
+
+/* Global Styles */
+body {
+  color: rgb(255, 248, 220);
+  background-color: rgb(53, 8, 8);
+}
+
+/* CSS Animation Keyframes */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+/* Utility Classes for Animations */
+.animate-fadeInUp {
+  animation: fadeInUp 1.5s ease-out; /* Fade and slide up animation */
+}
+
+/* Custom Navbar Styles */
+.menuLink {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menuLink:hover {
+  color: #edcc56; /* Yellow highlight */
+}
+
+/* Contact Section Styles */
+#Contacts {
+  padding-top: 8rem; /* .pt-32 equivalent */
+  padding-bottom: 4rem; /* .pb-16 equivalent */
+}
+
+/* Skills Section */
+#Skills {
+  padding-top: 8rem; /* .pt-32 equivalent */
+}
+
+/* Additional Custom Classes */
+.text-accent {
+  color: #edcc56; /* Golden accent color */
+}
+
+.bg-red-100 {
+  background-color: #f5e2a0; /* Lighter red */
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-red-500 {
+  color: #f87171; /* Tailwind red-500 */
+}
+
+.bg-red-700 {
+  background-color: #be123c; /* Darker red */
+}
+
+.bg-green-500 {
+  background-color: #10b981; /* Green */
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-40px {
+   font-size: 40px
+}
+
+.text-60px {
+  font-size: 60px;
+}
+
+.text-80px {
+  font-size: 80px;
+}
+
